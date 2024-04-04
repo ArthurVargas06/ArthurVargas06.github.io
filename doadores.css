@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(white, white, white, white,white, red);
+}
+
+header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 5px; 
+    }
+
+    h2 {
+        font-size: 20px; 
+    }
+
+    table {
+        font-size: 14px; 
+    }
+}
